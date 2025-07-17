@@ -1,0 +1,28 @@
+Day 11 – [2nd July 2025]
+
+TOPICS COVERED
+Student Record Form, Text Widget Usage, and Content Styling with Tags in Tkinter The day was focused on building a record-based form for academic evaluation and exploring multi-line text input and styling capabilities. Integrated condition checks, arithmetic logic, and custom formatting through tag configurations.
+
+Programs Practiced
+1. Student Marks Evaluation with Grade Calculation Created a student record form that accepts name and marks for five subjects. Used numerical input validation to calculate total marks, percentage, and assign a grade. Included logic to check if all fields are filled and displayed a status message accordingly.
+New Concepts Applied:
+•	Multiple input fields processed collectively using conditional checks.
+•	Arithmetic logic for summing marks and calculating percentage.
+•	Conditional grading system based on total score.
+•	Loop through entries to identify missing input and redirect focus.
+•	Status feedback using dynamic label updates.
+2. Using Text Widget for Simple Multiline Input Explored the Text widget to allow multiple lines of user input. Practiced inserting default content using insert() and controlling size with height and width attributes.
+New Widget Introduced:
+•	Text() – Used for multi-line text input.
+•	insert(END, ...) – Inserts content at the end of the text block.
+3. Styling Text Using Tags in the Text Widget Worked with tagging and styling specific portions of text within the Text widget. Used tag_add() to define styled ranges and tag_config() to assign background and foreground colors, creating visually segmented text areas.
+New Concepts Introduced:
+•	tag_add() – Selects text range to apply styling.
+•	tag_config() – Customizes visual appearance of tagged content.
+•	insert(INSERT, ...) – Places content at the current cursor position.
+
+Key Learnings of the Day
+•	Developed a full-featured form with input validation, calculation, and grading logic.
+•	Learned to manage multiple entry fields and dynamically guide user flow.
+•	Practiced using multi-line text widgets for rich input and display.
+•	Gained ability to format specific sections of text using tag ranges and styles.

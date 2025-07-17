@@ -1,0 +1,29 @@
+Day 18 – [10th July 2025]
+
+TOPICS COVERED
+Advanced Table Design, Static and Interactive Insertion in SQLite3 The focus today was on building a structured inventory database for items and expanding relational entries through both static and user-driven insertion. Strengthened familiarity with multi-field tables, interactive input handling, and refined record management using parameterized queries.
+
+Programs Practiced
+1.Creating an Inventory Table with Multiple Fields Set up the database item.db and created a table items to store an item ID, name, price, and quantity. Populated the table with sample products such as pens, notebooks, and calculators. Displayed all records using formatted output.
+Key Concepts Applied:
+•	CREATE TABLE IF NOT EXISTS – Prevents recreation if the table already exists.
+•	INSERT INTO – Inserts fixed records with multiple fields.
+•	SELECT * FROM – Retrieves all data from the table.
+•	fetchall() – Collects the entire result set for iteration and printing.
+•	Data printed in structured tabular format (row[0], row[1], etc.).
+2. Static Parameterized Insertion in Relational Table Connected to user.db and inserted a profession record into the jobs table using positional parameters in the execute() method. Used variables (i, j, n) to store the values before insertion, practicing secure data handling and avoiding hardcoded values.
+New Techniques Practiced:
+•	Tuple-based parameterized queries: VALUES(?,?,?).
+•	Statement executed within a with con: block for automatic commit and cleanup.
+3. Interactive User Input for Dynamic Insertion Enhanced data interactivity by allowing user input through input() statements to fill in the jobs table dynamically. Captured integer and string values from the console and inserted them using safe parameterized execution.
+Key Concepts Applied:
+•	Input-driven variable assignment (int(input(...)), input(...)).
+•	Dynamic construction of insertion records.
+•	Reused positional placeholders for flexible query building.
+
+Key Learnings of the Day
+•	Designed multi-column tables to structure inventory or catalog-type records.
+•	Implemented both static and dynamic insertion techniques using Python variables.
+•	Practiced securely handling input and integrating it with SQL queries.
+•	Managed result formatting through tuple unpacking and loop iteration.
+•	Strengthened control over relational data modeling across multiple fields.

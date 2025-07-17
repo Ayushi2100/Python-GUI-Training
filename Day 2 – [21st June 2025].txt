@@ -1,0 +1,25 @@
+Day 2 – [21st June 2025]
+
+TOPICS COVERED
+Introduction to Basic Tkinter Programs Explored Tkinter, Python’s standard GUI library for desktop applications. Focused on initializing windows, adding widgets, and integrating basic visual components like text and images.
+
+Programs Practiced
+1. Creating a Basic Empty Window Started by creating a minimal GUI window using Tkinter to understand the foundation of every application.
+Functions Used:
+•	Tk() – Creates the main window.
+•	mainloop() – Keeps the window active and responsive.
+2. Displaying a Simple Text Label Learned how to display static text using the Label widget and managed its layout using the pack() method.
+Functions Used:
+•	Label() – Used to show text.
+•	pack() – Automatically arranges widgets in blocks.
+3. Displaying an Image in a Tkinter Window Added a .gif image into the GUI using PhotoImage and embedded it into a label for display.
+Functions Used:
+•	PhotoImage() – Loads image files compatible with Tkinter.
+•	Label() – Holds and shows the image.
+•	pack() – Positions the image within the window.
+
+Key Learnings of the Day
+•	Understood how a GUI window is initialized and sustained.
+•	Practiced creating and placing widgets like text labels and images.
+•	Learned how layout management works with the pack() geometry manager.
+•	Set up the groundwork for building functional interfaces using Tkinter.

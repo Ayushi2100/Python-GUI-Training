@@ -1,0 +1,21 @@
+Day 6 – [26th June 2025]
+
+TOPICS COVERED
+Message Dialogs, Frame-Based Layouts, and Formatted Text Blocks in Tkinter The focus of the day was on enhancing the interactivity and presentation of GUIs using message boxes for user alerts, organizing content with frames, and displaying multi-line styled messages.
+
+Programs Practiced
+1. Implementing a Popup Message Box Built a GUI window with a button that displayed a message box on click using Tkinter’s messagebox module. This helped understand how to provide immediate feedback to the user through dialog alerts.
+New Concept Applied:
+•	messagebox.showinfo() – Used to create a popup window with a custom title and message.
+2. Organizing Buttons and Labels with Frames Created a layout using Frame to house multiple widgets including buttons and labels. Experimented with layout expansion using expand and fill parameters to manage space dynamically. Also explored how to terminate the application using a button.
+New Concept Applied:
+•	root.destroy – Terminates the GUI when triggered by a button.
+3. Displaying a Styled Multi-line Message Used the Message widget to render a formatted quote with customized font, size, foreground and background colors. This introduced a new way to display text with automatic wrapping and enhanced readability.
+New Widget Introduced:
+•	Message() – Used to present multi-line text with styling options.
+
+Key Learnings of the Day
+•	Worked with popup dialogs to deliver user alerts and messages.
+•	Learned layout management using frames and how to organize widgets responsively.
+•	Explored text presentation techniques with styled multi-line message widgets.
+•	Gained control over user-triggered behavior and built cleaner, more interactive interfaces.

@@ -1,0 +1,29 @@
+Day 14 – [5th July 2025]
+
+TOPICS COVERED
+Getting Started with SQL Console and Creating Basic Tables This day introduced how to launch and operate within an SQL console (such as SQLite). Explored the environment’s structure, basic setup commands, and essential operations to begin managing data through a relational database system.
+
+Activities Practiced
+1. Accessing the SQL Console Interface
+•	Learned how to open the SQL console in a development setup (e.g., SQLite in terminal or IDE).
+•	Familiarized with prompt behavior and session commands (like .help, .exit, .tables).
+2. Creating a Database and Defining Tables
+•	Used CREATE TABLE to build structures representing entities such as students, employees, or products.
+•	Specified fields with proper data types (INTEGER, TEXT, REAL) and constraints like PRIMARY KEY.
+3. Viewing Table Metadata and Schema
+•	Practiced viewing table design using .schema tablename or PRAGMA table_info(tablename).
+•	Understood how column types, keys, and nullability rules were defined.
+4. Inserting Records Using INSERT INTO
+•	Added full rows manually with matching column values.
+•	Tested insertion with and without specifying column names to observe default behaviors.
+•	Worked with NULL, default values, and quotes around string data.
+5. Querying Data with SELECT
+•	Used SELECT * FROM tablename for full table views.
+•	Selected specific fields to narrow output (SELECT name, age FROM students).
+•	Applied initial conditions using WHERE to filter rows by column values.
+
+Key Learnings of the Day
+•	Navigated the SQL console and executed foundational commands.
+•	Built data containers (tables) and defined column structures accurately.
+•	Practiced inserting structured records and managing data types effectively.
+•	Retrieved and filtered records using basic queries.

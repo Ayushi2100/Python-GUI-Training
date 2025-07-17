@@ -1,0 +1,25 @@
+Day 20 – [12th July 2025]
+
+TOPICS COVERED
+Record Deletion in SQLite3 and Tkinter-Based Data Insertion GUI Focused on data removal techniques within SQL using Python and created a functional GUI that collects and saves employee details to the database. Today's practice balanced backend logic with user-facing input handling.
+
+Programs Practiced
+1. Deleting a Specific Record from the items Table Connected to item.db and removed an entry based on ItemId = 4 using a parameterized DELETE statement. Verified successful deletion by displaying all remaining records using a SELECT * query. Wrapped the logic with a try-except-finally block to catch errors and ensure the database closed cleanly.
+Key Concepts Applied:
+•	DELETE FROM tablename WHERE column = ? – Used for targeted removal.
+•	commit() – Finalizes changes to the database.
+•	Safe deletion using variable substitution to prevent SQL injection.
+•	Looping over cur for printing updated contents.
+2. Adding Records to the emp Table via GUI Form Designed a Tkinter window with input fields to capture employee ID and name, then insert them into the emp table of ayushi.db. Added buttons and field-clearing logic to streamline the user experience.
+New Concepts Applied:
+•	GUI form-based data capture with two Entry widgets.
+•	SQL insertion via INSERT INTO emp VALUES (?, ?) using input-driven variables.
+•	Post-submission cleanup with .delete() and .focus_set() for a smooth reset.
+•	Tkinter layout with Label, Entry, Button, and place() for absolute positioning.
+
+Key Learnings of the Day
+•	Learned how to delete records in SQLite safely and verify updates.
+•	Practiced GUI-based data collection and SQL integration.
+•	Strengthened understanding of input management and form resets post-submission.
+•	Balanced command-line SQL operations with intuitive user interfaces for data entry.
+

@@ -1,0 +1,33 @@
+Day 15 – [7th July 2025]
+
+TOPICS COVERED
+Data Filtering, Updating, Deletion, and Table Modification in SQL Console Focused on modifying and controlling data within existing tables. Explored how to filter, update, delete, and alter table structures safely, with emphasis on maintaining data integrity during edits.
+
+Activities Practiced
+1. Filtering Records with WHERE Clause
+•	Used comparison operators (=, <, >, !=) to retrieve specific data.
+•	Practiced filtering based on numerical, string, and date fields.
+•	Combined multiple conditions using AND, OR, and BETWEEN.
+2. Updating Existing Records
+•	Applied UPDATE tablename SET column=value WHERE condition.
+•	Tested changes across one or multiple fields for targeted rows.
+•	Verified results using follow-up SELECT statements.
+3. Deleting Unwanted Rows with DELETE
+•	Used DELETE FROM tablename WHERE condition.
+•	Observed the effects of deleting without a WHERE clause and reviewed safety practices.
+•	Learned importance of backups and pre-check queries.
+4. Altering Table Structure with ALTER TABLE
+•	Added new columns post-creation (ALTER TABLE students ADD COLUMN grade TEXT).
+•	Discussed constraints like NOT NULL, DEFAULT, and UNIQUE.
+•	Tried adding default values and verified impact on existing records.
+5. Organizing Output with ORDER BY and LIMIT
+•	Used ORDER BY column ASC/DESC to sort records.
+•	Applied LIMIT N to reduce row counts and inspect top results.
+•	Combined queries with both sort and restriction for fine-tuned output.
+
+Key Learnings of the Day
+•	Refined data extraction skills using conditional filtering and operators.
+•	Gained control over record updates and understood how to protect data from unintended changes.
+•	Successfully removed rows with precise targeting through conditional deletion.
+•	Modified table structures while maintaining schema integrity.
+•	Created sorted and limited data views for practical reporting and analysis.

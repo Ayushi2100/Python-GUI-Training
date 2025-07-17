@@ -1,0 +1,29 @@
+Day 16 – [8th July 2025]
+
+TOPICS COVERED
+SQLite3 Setup, Table Creation, and Data Retrieval in Python This session focused on integrating SQL with Python using the sqlite3 module. Explored how to connect to a database file, execute SQL commands through Python, and retrieve stored data using cursor-based operations.
+
+Programs Practiced
+1. Attempting to Query SQLite Version Tried to connect to a database named "user" and execute a version check using SQLITE_VERSION(). Encountered a syntax error (SWLWCT instead of SELECT), which introduced a debugging opportunity.
+Concepts Observed:
+•	sqlite3.connect() – Establishes a connection to the specified database file.
+•	cursor() – Initializes a cursor object for executing SQL statements.
+•	fetchone() – Retrieves a single result from a query.
+•	Exception handling (try-except-finally) – Used to manage potential errors gracefully and ensure cleanup.
+•	Importance of precise SQL syntax for successful execution.
+2. Creating a Table and Inserting Records Connected to ayushi.db and created a new table emp with fields Id (integer) and Name (text). Inserted three records into the table using INSERT INTO. Utilized a context manager (with con:) to simplify connection handling and ensure proper resource management.
+New SQL Commands Practiced:
+•	CREATE TABLE emp(Id INT, Name TEXT) – Defines a new table structure.
+•	INSERT INTO emp VALUES(...) – Adds new records to the table.
+•	Multiple inserts performed sequentially within the same connection block.
+3. Retrieving and Displaying Table Data Queried all rows from the emp table using SELECT * FROM emp. Retrieved the results using fetchall() and printed each row in a loop. Observed how SQLite returns data as Python tuples.
+New Methods Applied:
+•	fetchall() – Retrieves all records from the executed query.
+•	for row in rows: – Iterates through query results for display.
+
+Key Learnings of the Day
+•	Gained experience integrating SQL within Python using the sqlite3 module.
+•	Understood how database connections and cursors work together for executing queries.
+•	Practiced creating tables and inserting data programmatically.
+•	Retrieved and looped through table records using Python-native structures.
+•	Identified and corrected common syntax issues to ensure proper query execution.

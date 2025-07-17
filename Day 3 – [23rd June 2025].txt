@@ -1,0 +1,25 @@
+Day 3 – [23rd June 2025]
+
+TOPICS COVERED
+Enhancing GUI Layouts with Text-Image Alignment and Typography Styling Focused on improving the structure and design of GUI components by working with advanced Label properties. Explored text-image alignment, compound content styling, and customized fonts and colors to create more expressive user interfaces.
+
+Programs Practiced
+1. Aligning Images and Text Using pack() Side Parameters Built a layout combining an image and text label side by side, using horizontal placement with the side parameter.
+New Concept Applied:
+•	side='left' and side='right' – Controls how widgets are aligned within the window.
+2. Combining Text and Images in a Single Label Used the compound property to embed text and image together within one Label widget, improving readability and cohesion.
+New Property Used:
+•	compound=tk.CENTER – Aligns image and text together inside a single label.
+3. Customizing Fonts and Colors in Labels Designed colorful label widgets with distinct fonts and styles. Tested multiple font families and applied foreground/background color combinations.
+New Attributes Introduced:
+•	fg, bg – Set text and background colors.
+•	font – Applied styling such as:
+i.	"Times" – Classic serif text.
+ii.	"Helvetica 16 bold italic" – Expressive header style.
+iii.	"Verdana 10 bold" – Clean sans-serif emphasis.
+
+Key Learnings of the Day
+•	Improved GUI layout design using horizontal alignment strategies.
+•	Embedded multimedia and text together for better presentation.
+•	Practiced font selection and color styling for polished visual output.
+•	Enhanced widget composition through compound content and layered formatting.

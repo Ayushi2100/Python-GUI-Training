@@ -1,0 +1,24 @@
+Day 13 – [4th July 2025]
+
+TOPICS COVERED
+Dialog Control and Messagebox Functions in Tkinter The focus today was on using the messagebox module for dialog-based interactions. Practiced generating popup alerts, confirmations, and managing user choices for critical events like quitting the application.
+
+Programs Practiced
+1. Showing a Simple Information Messagebox Created a basic GUI with a button that displays an informational message when clicked. Practiced linking button actions to messagebox.showinfo() and positioning widgets with .place().
+New Concept Applied:
+•	messagebox.showinfo() – Displays a popup with a title and message text.
+2. Handling Yes/No Prompts and Error Alerts Built a GUI with two buttons: one triggered a confirmation dialog using askyesno() followed by conditional warning or info messages, while the other showed an error alert. This introduced layered dialog logic and decision-based outputs.
+New Methods Introduced:
+•	messagebox.askyesno() – Returns a Boolean based on user selection.
+•	messagebox.showerror() – Presents error notifications.
+•	messagebox.showwarning() – Displays warning messages.
+3. Managing Application Closure via Window Protocol Events Implemented a multi-level confirmation process when attempting to close the GUI window using the window’s close button. Used protocol() to intercept the WM_DELETE_WINDOW event and nested multiple askokcancel() dialogs to confirm user intent.
+New Concept Applied:
+•	root.protocol("WM_DELETE_WINDOW", callback) – Captures window close requests and handles them with custom logic.
+•	messagebox.askokcancel() – Asks for confirmation with OK and Cancel options.
+
+Key Learnings of the Day
+•	Practiced dialog-based user interactions using the messagebox module.
+•	Learned to build multi-step confirmation flows for sensitive actions.
+•	Explored error handling and notification design using standardized popup dialogs.
+•	Controlled application behavior through window protocol events and conditional logic.

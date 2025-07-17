@@ -1,0 +1,25 @@
+Day 21 – [14th July 2025]
+
+TOPICS COVERED
+Searching and Modifying Records in SQLite3 via Tkinter GUI The day centered around building search and edit functionalities for database records using a form-style interface in Tkinter. Applied condition-based retrieval and implemented real-time updates through user inputs.
+
+Programs Practiced
+1. Searching for Employee Data by ID Designed a GUI to retrieve an employee’s name by entering their ID. On clicking the search button, the app queried the emp table and displayed the result in an entry field.
+Key Concepts Applied:
+•	Parameterized query with SELECT * FROM emp WHERE Id = ?.
+•	Used fetchone() to retrieve a single matching record.
+•	Printed row[1] to extract and display only the employee name.
+•	Cleared and reset the search field after execution using .delete() and .focus_set().
+2. Searching and Modifying Employee Records Extended functionality by adding a MODIFY button that updates an employee's name based on the entered ID. Provided dual interaction:
+•	SEARCH: Retrieves name for entered ID.
+•	MODIFY: Updates name using input from both fields.
+New Concepts Introduced:
+•	UPDATE emp SET Name = ? WHERE Id = ? – Performs record modification.
+•	Error-handling logic to manage incorrect or missing ID inputs.
+•	GUI built using Label, Entry, and Button widgets with place() for layout positioning.
+
+Key Learnings of the Day
+•	Gained proficiency in querying records by ID using GUI elements.
+•	Implemented live updates to database entries with clean user feedback.
+•	Practiced clearing and resetting inputs post-action to improve usability.
+•	Strengthened understanding of two-way database interaction—fetching and updating records via form logic.

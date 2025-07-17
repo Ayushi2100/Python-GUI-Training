@@ -1,0 +1,24 @@
+Day 5 – [25th June 2025]
+
+TOPICS COVERED
+Advanced Button Design and Widget Placement in Tkinter Explored more advanced features of the Button widget by combining images and text, customizing layout behavior, and organizing components inside containers. Focused on enhancing GUI responsiveness and mastering flexible positioning strategies.
+
+Programs Practiced
+1. Designing an Image-Text Button with Custom Dimensions Created a button that displays both an image and text using the compound property. Positioned them side-by-side and adjusted the button’s height and width for better presentation.
+New Concepts Applied:
+•	compound=LEFT – Places image and text side by side inside a button.
+•	height, width – Control visual size of the button.
+2. Embedding Widgets in a Flexible Frame with Mixed Layout Used the Frame widget to group buttons and labels, then managed their alignment and expansion with layout options like side, fill, and expand.
+New Concepts Applied:
+•	Frame() – Creates a container for organizing related widgets.
+•	side=LEFT/TOP/RIGHT – Aligns widgets within the frame.
+•	fill=X/Y/BOTH, expand=YES – Enables dynamic sizing and stretching.
+3. Using Absolute Positioning with place() Geometry Manager Positioned widgets at specific screen coordinates using the place() method. Practiced precise control over layout compared to more automated managers like pack() and grid().
+New Concept Applied:
+•	place(x=..., y=...) – Positions widgets explicitly using pixel-based coordinates.
+
+Key Learnings of the Day
+•	Learned to merge text and images into unified button components.
+•	Built responsive layouts by using frames and layout modifiers.
+•	Practiced manual widget positioning with the place() method.
+•	Strengthened knowledge of geometry managers and when to use each based on layout needs.

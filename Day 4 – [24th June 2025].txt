@@ -1,0 +1,27 @@
+Day 4 – [24th June 2025]
+
+TOPICS COVERED
+Working with Button Widgets and Grid Layout in Tkinter Progressed into the interactive side of GUI development by using button widgets to respond to user actions and organizing content with grid-based layouts. The focus was on building click-triggered functionality and improving visual structure through row-column positioning.
+
+Programs Practiced
+1. Creating a Basic Button with Event Handling Designed a simple GUI with a button labeled “OK.” Clicking the button triggered a custom callback function that printed a message in the console — marking the first use of interactivity.
+New Concepts Applied:
+•	Button() – Adds a clickable widget.
+•	command – Connects a button to a function for user-driven responses.
+2. Adding an Image Button with Window Sizing Built a GUI with controlled dimensions using minsize() and geometry(), then added a button featuring an image. Adjusted button size using width and height parameters to match the visual layout.
+New Methods Used:
+•	minsize() – Defines minimum window dimensions.
+•	geometry() – Sets initial window size.
+•	height, width – Customize button sizing.
+3. Implementing Grid-Based Layout and Label Update on Button Click Used the grid() layout manager to arrange widgets precisely. Set up a label that updates its content dynamically when a button is clicked, combining layout control with real-time feedback.
+New Concepts Applied:
+•	grid(row=..., column=...) – Arranges widgets into rows and columns.
+•	title() – Sets the window’s title bar text.
+•	configure() – Modifies widget attributes during runtime.
+
+Key Learnings of the Day
+•	Built responsive buttons linked to function callbacks.
+•	Controlled window sizing for cleaner layout presentation.
+•	Designed image-based buttons for richer GUI interaction.
+•	Practiced precise layout management using the grid system.
+•	Updated label content dynamically based on user clicks.

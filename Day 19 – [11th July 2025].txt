@@ -1,0 +1,30 @@
+Day 19 – [11th July 2025]
+
+TOPICS COVERED
+Fetching, Filtering, and Updating Records in SQLite3 Using Python Today focused on extracting data from existing database tables, using error-handled retrieval strategies and modifying table contents with update queries. Explored display formatting, partial column selection, and safe value substitution using parameters.
+
+Programs Practiced
+1. Fetching All Records from a Relational Table Connected to the user.db database and retrieved all entries from the jobs table. Printed each row's fields (ID, UID, Profession) in a structured format with visual dividers to distinguish records clearly.
+Concepts Reinforced:
+•	fetchall() – Returns all records from the query result.
+•	Indexed tuple access (row[0], row[1], row[2]) to print individual fields.
+•	Loop formatting to present results in a readable block.
+2. Selecting Specific Columns with Error Handling Connected to the item.db database and selected only ItemName and ItemPrice from the items table. Wrapped the query logic in a try-except-finally block to catch and handle any issues that might occur during query execution.
+New Practices Applied:
+•	Column-specific retrieval with SELECT column1, column2 FROM ....
+•	Error management via Exception as e to detect and report failures.
+•	Use of cur directly as an iterator over rows.
+•	finally: block ensures cursor cleanup with cur.close().
+3. Updating an Existing Record in the user3 Table Modified an entry in the user3 table by updating the name field of a user with a specific ID. Used parameterized queries to safely insert dynamic values and followed the update with a SELECT query to verify the changes.
+Key Methods Practiced:
+•	UPDATE tablename SET column = ? WHERE condition – Applied with variables (p, n).
+•	con.commit() – Ensures the update is saved to the database.
+•	Parameter substitution using tuples to prevent SQL injection.
+•	Immediate verification with SELECT * to confirm the updated output.
+
+Key Learnings of the Day
+•	Retrieved full and partial records from tables with clean formatting and readable layout.
+•	Applied error handling techniques to prevent crashes during query execution.
+•	Practiced safe record updates using parameterized SQL in Python.
+•	Reinforced the use of loops and indexing for structured data display.
+•	Gained confidence in applying update operations and verifying results post-execution.

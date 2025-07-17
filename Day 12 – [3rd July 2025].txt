@@ -1,0 +1,30 @@
+Day 12 – [3rd July 2025]
+
+TOPICS COVERED
+Interactive GUI Controls with Scales and Listboxes in Tkinter Today’s session focused on integrating slider-based numeric input and list-style widgets. Explored scale configuration for dynamic value selection and used listboxes to display selectable text items. Strengthened understanding of layout control, value retrieval, and visual structuring.
+
+Programs Practiced
+1. Creating Vertical and Horizontal Scale Widgets Designed two scale widgets to allow users to select numbers from specified ranges. Practiced orientation control and setting default values.
+New Widget Introduced:
+•	Scale() – Enables graphical input of numeric values via sliders.
+New Attributes Applied:
+•	orient=HORIZONTAL – Sets horizontal layout.
+•	.set() – Initializes default slider value.
+2. Retrieving Scale Values with Custom Ticks and Lengths Enhanced scale widgets with labeled tick intervals and adjusted slider length. Added a button to retrieve and display selected values.
+New Attributes Applied:
+•	tickinterval – Creates labeled increments on the scale.
+•	length – Controls the size of the horizontal slider.
+•	.get() – Retrieves current value of a scale widget.
+3. Displaying Programming Languages with a Listbox Populated a listbox with various programming language names. Learned to add items into specific positions and present a scrollable vertical list.
+New Widget Introduced:
+•	Listbox() – Displays a scrollable selection list.
+•	.insert(index, item) – Adds items to the list at specified positions.
+4. Appending Items to a Listbox with a Loop Designed a dynamic listbox that starts with a default “Select” option and appends new items using a loop. Practiced using END to add items sequentially and refined listbox population strategies.
+New Concept Applied:
+•	insert(END, item) – Adds items to the end of the listbox.
+•	for loop – Automates item insertion from a list.
+
+Key Learnings of the Day
+•	Gained hands-on experience with scale widgets for flexible numeric input.
+•	Customized scale appearance and functionality using tick intervals and lengths.
+•	Practiced listbox usage for presenting options and populating content dynamically.

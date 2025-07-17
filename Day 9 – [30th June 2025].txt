@@ -1,0 +1,25 @@
+Day 9 – [30th June 2025]
+
+TOPICS COVERED
+Text Entry, Input Handling, and Evaluating Expressions with Tkinter Today’s focus was on working with Entry widgets to collect text input from users and process it. Explored form-style GUIs for name collection, methods for updating and resetting input fields, and evaluated user-provided expressions dynamically.
+
+Programs Practiced
+1. Creating a Simple Form for First and Last Name Entry Built a GUI with two entry fields labeled “First Name” and “Last Name”, using grid layout. Implemented buttons to display the entered names and exit the application. Strengthened layout control and text retrieval with get().
+New Concept Applied:
+•	Structured input collection using paired labels and entry fields.
+2. Pre-Filled Input Fields and Field Resetting Logic Worked on a version of the name entry form with default text preloaded into the fields. Practiced deleting input using .delete(), and resetting focus with .focus_set() after submission. Strengthened control over input management and user interaction.
+New Methods Applied:
+•	.insert() – To prefill an entry field.
+•	.delete() – To clear user input.
+•	.focus_set() – To redirect input focus back to the field.
+3. Evaluating Mathematical Expressions from User Input Created a GUI that accepts mathematical expressions from the user and evaluates them upon pressing the Enter key. Learned how to bind keyboard events and dynamically update output labels.
+New Concepts Introduced:
+•	bind("<Return>", ...) – Connects a keyboard event to a function.
+•	eval() – Executes the expression entered by the user and returns the result.
+•	.configure() – Used to update label text based on evaluation.
+
+Key Learnings of the Day
+•	Developed structured input interfaces using the Entry widget.
+•	Practiced managing user input with pre-filled data, clearing, and resetting focus.
+•	Explored event handling with keyboard bindings and expression evaluation.
+•	Enhanced GUI responsiveness and dynamic feedback features.

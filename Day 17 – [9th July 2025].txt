@@ -1,0 +1,24 @@
+Day 17 – [9th July 2025]
+
+TOPICS COVERED
+Reading Data from SQLite3 Tables and Creating Linked Tables in Python Today’s focus was on retrieving data from database tables in controlled ways and building a small relational schema with two linked entities. Practiced using various fetch methods and designed tables that simulate user-job relationships.
+
+Programs Practiced
+1. Fetching a Single Row Using fetchone() Connected to ayushi.db and retrieved one record from the emp table using fetchone(). Observed how the method returns the first available row as a tuple, and noted that it moves the cursor forward—subsequent calls return the next row.
+Key Methods Used:
+•	fetchone() – Retrieves the next row from the result set (starting with the first).
+•	Cursor-based execution and direct row printing.
+2. Retrieving Multiple Records Using fetchmany() Used fetchmany(2) to extract the first two rows from the same emp table. Printed results in formatted output using index-based access (row[0], row[1]). Practiced controlling result sets for concise data inspection.
+Key Concepts Applied:
+•	fetchmany(n) – Retrieves the next n rows from the result set.
+•	Tuple unpacking via indexing for organized display.
+3. Creating Relational Tables: Users and Jobs Designed two linked tables inside user.db:
+•	user3(Id, Name) – Represents basic user profiles.
+•	jobs(Id, Uid, Profession) – Associates professions to users via foreign-like linkage (Uid corresponds to user3.Id).
+Inserted three records into each table to simulate a basic one-to-one mapping between users and their jobs.
+
+Key Learnings of the Day
+•	Differentiated between fetchone() and fetchmany() for flexible data retrieval.
+•	Practiced indexed data access from tuples returned by queries.
+•	Designed multiple tables with reference-based IDs to simulate relationships.
+•	Established groundwork for joining tables and performing cross-entity queries.

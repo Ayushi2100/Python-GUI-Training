@@ -1,0 +1,25 @@
+Day 10 – [1st July 2025]
+
+TOPICS COVERED
+Numeric Input Validation, Entry Management, and Financial Calculations in Tkinter The focus today was on capturing numeric input from users and processing it with error handling, GUI updates, and simple formula-based calculations. Practiced designing structured forms to calculate the sum of numbers and compute financial values like simple interest.
+
+Programs Practiced
+1. Validating Numeric Input for Summation Created a GUI that collects two numbers from users, validates their presence and type, then calculates and displays the sum. Integrated status messages to indicate success or invalid input using a label.
+New Concepts Applied:
+•	try-except for error handling during numeric conversion.
+•	Conditional checks to validate input before calculation.
+•	Dynamically updated status feedback using label configuration.
+2. Displaying Calculated Results in a Designated Entry Field Built a cleaner form to calculate and display the sum of two numbers directly into a third entry widget. Worked with field clearing using .delete() and .insert() to manage output presentation inside the form.
+New Method Applied:
+•	Updating entry fields with calculated results using insert/delete logic.
+3. Simple Interest Calculation Based on User Input Created a complete financial form where principal amount, interest rate, and time period are entered by the user, and the simple interest is calculated and displayed. Strengthened layout control and formula-based processing in the GUI.
+New Concepts Applied:
+•	Used multiple entry fields for arithmetic input collection.
+•	Applied basic financial formula: Simple Interest = (P × R × T) / 100.
+•	Displayed results within a designated output entry field with place() layout.
+
+Key Learnings of the Day
+•	Improved user input handling with type checking and form validation.
+•	Practiced output management using dynamic label and entry updates.
+•	Applied real-world formulas to interactive GUI tools.
+•	Built form-based calculators with clear structure, input feedback, and responsive layout.

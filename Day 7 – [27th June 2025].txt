@@ -1,0 +1,20 @@
+Day 7 – [27th June 2025]
+
+TOPICS COVERED
+Radio Buttons, Checkbuttons, and Basic Input Widgets in Tkinter The focus today was on interactive input elements like radio buttons and checkbuttons—used to collect user selections within GUI applications. The exercises explored how to group choices, trigger actions based on selection, and track input states using variables.
+
+Programs Practiced
+1. Creating Radio Buttons for Language Selection Designed a GUI that asks users to select a programming language from two radio button options—Python and Perl. This helped understand how radio buttons are linked to an IntVar and how they represent mutually exclusive choices.
+New Widget Introduced:
+•	Radiobutton() – Allows selection of a single option from a group.
+2. Displaying Selected Option from Radio Buttons Built a program with three radio buttons labeled “Option 1”, “Option 2”, and “Option 3”, where the selected choice is dynamically shown using a label. Introduced the concept of using a callback function to display user input in real time.
+New Concept Applied:
+•	label.config() – Updates label content based on user interaction.
+3. Using Checkbuttons to Track Multiple Selections Practiced capturing user choices through checkbuttons labeled “Male” and “Female”. When clicked, the values of the corresponding IntVar() variables were printed to the console. This exercise illustrated how checkbuttons differ from radio buttons by allowing multiple selections simultaneously.
+New Widget Introduced:
+•	Checkbutton() – Enables multiple selections and tracks states individually.
+
+Key Learnings of the Day
+•	Gained understanding of radio buttons for mutually exclusive user inputs.
+•	Learned to use checkbuttons for tracking independent selection states.
+•	Applied variable binding using IntVar() to record button interactions.

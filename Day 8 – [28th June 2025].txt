@@ -1,0 +1,26 @@
+Day 8 – [28th June 2025]
+
+TOPICS COVERED
+Capturing and Displaying User Input through Widgets in Tkinter The day focused on gathering user data using entry fields, checkbuttons, and radiobuttons. Built interactive interfaces that collect and display inputs, helping understand variable management, form structuring, and dynamic updates based on user interaction.
+
+Programs Practiced
+1. Using Checkbuttons and Grid Layout for Gender Selection Designed a GUI that lets users mark their gender through checkbuttons labeled "Male" and "Female". Introduced basic layout with .grid() and button-based callbacks to retrieve and display the selected values.
+New Concepts Applied:
+•	grid(row=...) – Used to arrange widgets in a row-based layout.
+•	Variable retrieval via .get() for checkbuttons.
+2. Toggle Behavior with Custom Values in Checkbuttons Created a simple checkbox that toggles between “RGB” and “L” when selected, demonstrating how onvalue and offvalue customize the output based on state. Practiced mapping a StringVar() to handle non-numeric input.
+New Attributes Introduced:
+•	onvalue, offvalue – Define output of a checkbutton when toggled.
+3. Designing a Simple Registration Form with Input Fields Built a form-based GUI that collects a name, gender, and hobbies using an Entry widget, radiobuttons, and checkbuttons. Integrated formatted labels and button-driven actions to display user responses in the console.
+New Widgets and Attributes Introduced:
+•	Entry() – Accepts user text input.
+•	.place(x=..., y=...) – Absolute positioning for layout control.
+•	.delete() and .focus_set() – Used to clear the entry field and reset focus.
+•	Multiple variables (StringVar) to manage inputs across widgets.
+•	Styled labels using bg, fg, and custom fonts for interface design.
+
+Key Learnings of the Day
+•	Learned how to design form-style interfaces using a combination of entry fields, radio buttons, and checkboxes.
+•	Practiced retrieving and displaying multiple user inputs dynamically.
+•	Explored absolute positioning and widget styling for polished layouts.
+•	Strengthened skills in managing input variables and clearing/resetting fields post-submission.
