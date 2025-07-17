@@ -1,0 +1,31 @@
+Day 1 – [20th June 2025]
+TOPICS COVERED:
+Introduction to Tkinter, Scope of Training, and Long-Term Applications The first day was dedicated to understanding what Tkinter is, how it fits into Python development, and what kind of projects and opportunities this training will unlock. Set clear goals for mastering GUI design using Tkinter and prepared a roadmap for the coming days.
+Concepts Explored:
+1. What is Tkinter?
+•	Tkinter is Python’s standard GUI (Graphical User Interface) toolkit.
+•	It allows developers to create desktop applications with visual elements such as windows, buttons, text fields, labels, and forms.
+•	Acts as a bridge between Python code and on-screen graphical components.
+2. Why Learn Tkinter?
+•	No external installations needed — comes built into Python.
+•	Ideal for beginners learning GUI development.
+•	Widely used in educational tools, small business software, utilities, and personal desktop apps.
+•	A good stepping stone before moving on to more advanced frameworks like PyQt or Kivy.
+3. Scope of This Training Program
+•	Design intuitive and interactive user interfaces.
+•	Work with layout managers (pack, grid, place) for structured arrangements.
+•	Handle user inputs using buttons, entries, and radio/checkbox controls.
+•	Build real-world applications like medical store systems, inventory tools, and registration forms.
+•	Integrate with databases using sqlite3 for persistent data storage.
+•	Learn how to update, fetch, and delete records through form logic.
+4. Future Use and Career Relevance
+•	Use Tkinter to rapidly prototype Python projects for clients or personal use.
+•	Build standalone desktop apps without needing web development frameworks.
+•	Great for educational software, data entry tools, and GUI-based automation.
+•	Forms the foundational logic for interfacing Python with users — a skill transferable to web, mobile, and enterprise domains.
+•	Can be extended with other libraries like Pillow for image support and matplotlib for plotting.
+Key Takeaways of the Day:
+•	Understood the fundamentals of GUI development with Tkinter.
+•	Outlined training goals and set expectations for upcoming modules.
+•	Identified how Tkinter fits into broader development pathways.
+•	Motivated by the idea of building usable, polished applications with Python.
